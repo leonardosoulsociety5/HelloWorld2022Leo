@@ -18,7 +18,7 @@ public class OutputScript : MonoBehaviour {
     // REPLACE THIS WITH YOUR NAME.
     names.name = givenName;
     Out1.text = names.name;
-    Out2.text = names.UseGreeting ("Hello World from ");
+    Out2.text = names.UseGreeting("Hello World from ");
   }
 
   public void CalculateSum () {
